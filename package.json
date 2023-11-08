@@ -1,0 +1,43 @@
+{
+  "name": "car_parking_node_backend",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://devops-ais@dev.azure.com/devops-ais/Car-Parking/_git/Node_Backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron": "^2.4.0",
+    "deprecation": "^2.3.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "http": "^0.0.1-security",
+    "logger": "^0.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1",
+    "mongoose-custom-validators": "^0.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^2.0.21",
+    "password-validator": "^5.3.0",
+    "qrcode": "^1.5.1",
+    "socket.io": "^4.6.1",
+    "upper-case-first": "^2.0.2",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
